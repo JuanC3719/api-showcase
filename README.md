@@ -22,7 +22,7 @@ The API Showcase project demonstrates a simple API interaction using a Django ba
 
 3. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 4. The application will be available at http://localhost:5173.
 
@@ -48,23 +48,19 @@ API calls are managed through the `apiService.js` file:
 1. Navigate to the `backend` directory.
 2. Create a virtual environment and activate it:
    ```bash
-   python -m venv venv
+   python3 -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
    ```
 
 ### Running the Backend
 
 1. Apply database migrations:
    ```bash
-   python manage.py migrate
+   python3 manage.py migrate
    ```
 2. Start the development server:
    ```bash
-   python manage.py runserver
+   python3 manage.py runserver
    ```
 3. The API will be available at http://localhost:8000.
 
